@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex01.css">
+    <title>Verificador de idade</title>
+    <script src="ex01.js"></script>
+</head>
+<header>
+    <h1 class="titulo">Verificador de idade</h1>
+</header>
+<body>
+    <div class="container">
+        <div>
+            <p class="label">Ano de nascimento:</p>
+            <input class="ano" type="date" id="anoNascimento">
+            <p class="label">Sexo:</p>
+            <select class="label" id="sexo">
+                <option value ="vazio"></option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <button class="botao" onclick="verificarIdade()">Verificar</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+</body>
+</html>

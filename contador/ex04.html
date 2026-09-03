@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="ex04.css">
+    <script src="ex04.js"></script>
+</head>
+<body>
+    <h1> Tabuada </h1>
+    <div class="container">
+        <div class="box">
+            <p class="label">Número:</p>
+            <input class="numero" type="number" id="numero">
+        </div>
+        <div>
+            <p class="label">Número 2:</p>
+            <input class="numero" type="number" id="numero2">
+        </div>
+        <button onclick="somar()"> Soma </button>
+        <button onclick="subtrair()"> Subtração </button>
+        <button onclick="multiplicar()"> Multiplicação </button>
+        <button onclick="dividir()"> Divisão </button>
+        <div>
+            <button class="botao" onclick="gerarTabuada()">Gerar Tabuada</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
+</body>
+</html>
